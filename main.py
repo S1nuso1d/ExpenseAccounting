@@ -7,7 +7,12 @@ def menu():
     print("5.Выход")
 
 def ask_expense():
-    return
+    kol = input("Количество расходов: ")
+    cat = input("Категория: ")
+    amount = input("Цена: ")
+    com = input("Комментарий: ")
+    expense = {"category": cat, "amount": amount, "comment": com}
+    return expense
 
 def week_total():
     return
