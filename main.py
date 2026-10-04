@@ -10,7 +10,28 @@ def ask_expense():
     return
 
 def week_total():
-    return 
+    return
 
-def
+def expense_del():
+    return
 
+
+
+while True:
+    menu()
+    choise = input("Ваш выбор: ")
+
+    if choise == "5":
+        break
+
+    elif choise == "1":
+        ask_expense()
+
+    elif choise == "2":
+        print()
+
+    elif choise == "3":
+        week_total()
+
+    elif choise == "4":
+        expense_del()
